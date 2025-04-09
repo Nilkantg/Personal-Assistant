@@ -1,0 +1,66 @@
+# Core libraries
+numpy==1.23.5
+pandas==1.5.3
+
+# Deep Learning frameworks
+torch==2.0.1
+tensorflow==2.12.0
+keras==2.12.0
+
+# Transformers and NLP libraries
+transformers==4.30.2
+sentencepiece==0.1.99
+
+# Tokenization
+tokenizers==0.13.3
+
+# Model fine-tuning and training helpers
+datasets==2.13.1
+accelerate==0.20.3
+
+# Embedding libraries
+faiss-cpu==1.7.4
+
+# Hugging Face ecosystem
+huggingface-hub==0.15.1
+
+# LangChain (fixing dependency conflicts)
+langchain
+langchain-core
+langchain-community
+langchain-openai
+
+# Natural Language Processing
+nltk==3.8.1
+spacy==3.6.0
+
+# Pre-trained models
+sentence-transformers
+
+# Vector Databases (for LLM memory)
+chromadb
+pinecone-client
+
+# Image Processing (if dealing with multimodal GenAI)
+Pillow==9.5.0
+opencv-python==4.7.0.72
+
+# Visualization tools
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# API creation
+fastapi
+uvicorn
+
+# Web app development
+streamlit
+
+# Cloud integrations
+boto3==1.28.0
+google-cloud-storage==2.11.0
+
+# Miscellaneous utilities
+scikit-learn==1.3.1
+tqdm==4.65.0
+python-dotenv
